@@ -1,0 +1,38 @@
+.card {
+  border: 2px solid #c7f4a1;
+  padding: 15px;
+  width: 200px; /* Adjust the width as needed */
+  height: 210px; /* Adjust the height as needed */
+}
+
+.imgCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%; /* Adjust the height to fit the image */
+}
+
+.imgCon img {
+  border-radius: 10px;
+  width: 100%; /* Make the image responsive */
+  height: 100px;
+}
+
+.info {
+  align-items: center;
+  text-align: center;
+  height: 40%; /* Adjust the height to fit the information */
+}
+
+.innerDiv {
+  /* Add any additional styles as needed */
+}
+
+.cardCon{
+  display: flex;
+  flex-wrap: wrap; /* Wrap cards in a grid */
+  column-gap: 200px; /* Add spacing between cards */
+  row-gap: 100px;
+  margin-left: 12.5%;
+  margin-top: 5%;
+}
